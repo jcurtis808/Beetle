@@ -2,6 +2,30 @@ body {
 	background-color: lightgreen;
 }
 
+nav {
+	display: flex;
+	height: 60px;
+	background-color: beige;
+	align-items: center;
+}
+
+nav > a {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.2em;
+	text-decoration: none;
+	color: purple;
+}
+
+nav > img {
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+}
+
+h1 {
+	margin-bottom: 0;
+}
+
 .container {
 	display: flex;
 	flex-direction: column;
