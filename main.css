@@ -1,0 +1,43 @@
+body {
+	background-color: lightgreen;
+	margin: 0;
+}
+
+.h1-home {
+	text-align: center;
+	font-size: 3.5em;
+	font-family: 'Girassol', cursive;
+	letter-spacing: 3px;
+	margin: 5px 0px;
+}
+.h2-home {
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+}
+
+.tiny {
+	font-size: 12pt;
+	padding: 1em;
+}
+
+.driveway {
+	display: block; 
+	margin-left: auto;
+	margin-right: auto;
+	width: 66%;
+	height: auto;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-around;
+	background-color: beige;
+	padding: 15px 0px;
+}
+
+.link {
+	text-decoration: none;
+	font-size: 1.2em;
+	color: purple;
+	font-family: 'Lato', sans-serif;
+}

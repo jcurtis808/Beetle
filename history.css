@@ -1,0 +1,74 @@
+body {
+	background-color: beige;
+}
+
+nav {
+	display: flex;
+	height: 60px;
+	align-items: center;
+}
+
+#photos {
+	margin-left: auto;
+	margin-right: 20px;
+}
+
+nav > a {
+	text-decoration: none;
+	font-family: Lato, sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: purple;
+	margin-left: 5px;
+}
+
+nav > img {
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+}
+
+.container {
+	display: flex;
+	position: relative;
+	height: 75vh;
+	background-image: url(/images/cover.jpg);
+	background-size: cover;
+	margin: 5px 50px 50px 50px;
+}
+
+.text {
+	font-family: 'Girassol', cursive;
+	font-size: 8vh;
+	position: absolute;
+	left: 8%;
+	top: 12%;
+	letter-spacing: 3px;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+p {
+	width: 60%;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-size: 3vh;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+.content > img {
+	width: 80vw;
+	height: auto;
+	padding: 50px 0;
+}
+
+#think {
+	height: 80vh;
+	width: auto;
+}

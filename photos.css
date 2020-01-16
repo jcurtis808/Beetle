@@ -1,0 +1,24 @@
+body {
+	background-color: lightgreen;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
+img {
+	max-height: 80vh;
+	width: auto;
+	padding: 50px;
+}
+
+.photos {
+	font-family: 'Girassol', cursive;
+	text-align: center;
+	font-size: 9vh;
+	letter-spacing: 5px;
+	color: purple;
+}
