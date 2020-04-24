@@ -33,7 +33,7 @@ nav > img {
 	position: relative;
 	height: 75vh;
 	width: 75vw;
-	background-image: url(/images/cover.jpg);
+	background-image: url(images/cover.jpg);
 	background-size: cover;
 	margin: 15px auto 75px;
 }
