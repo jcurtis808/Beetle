@@ -32,9 +32,10 @@ nav > img {
 	display: flex;
 	position: relative;
 	height: 75vh;
+	width: 75vw;
 	background-image: url(/images/cover.jpg);
 	background-size: cover;
-	margin: 5px 50px 50px 50px;
+	margin: 15px auto 75px;
 }
 
 .text {
@@ -52,21 +53,22 @@ nav > img {
 	flex-direction: column;
 	flex-wrap: wrap;
 	align-items: center;
+	justify-content: center;
+	line-height: 3em;
 }
 
 p {
 	width: 60%;
 	text-align: center;
 	font-family: 'Lato', sans-serif;
-	font-size: 3vh;
+	font-size: 2vh;
 	letter-spacing: 1px;
+	line-height: 1.5em;
 	font-weight: bold;
 }
 
 .content > img {
-	width: 65vw;
-	height: auto;
-	padding: 50px 0;
+	margin: 50px auto;
 }
 
 #think {
